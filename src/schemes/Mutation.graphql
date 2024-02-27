@@ -1,0 +1,9 @@
+type Mutation {
+  updateInventory(
+    productId: String!
+    name: String
+    quantity: Int
+    category: String
+    subCategory: String
+  ): Inventory
+}

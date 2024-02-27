@@ -1,0 +1,14 @@
+type Order {
+  id: ID!
+  orderId: ID!
+  productId: String!
+  currency: String!
+  quantity: Int!
+  shippingCost: Float!
+  amount: Float!
+  channel: String!
+  channelGroup: String!
+  campaign: String!
+  dateTime: String!
+  inventory: Inventory!
+}

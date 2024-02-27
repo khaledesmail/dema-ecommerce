@@ -1,0 +1,8 @@
+type Inventory {
+  productId: String!
+  name: String!
+  quantity: Int!
+  category: String!
+  subCategory: String!
+  orders: [Order!]!
+}

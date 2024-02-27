@@ -1,0 +1,3 @@
+type Query {
+  listInventory(category: String, subCategory: String, inStock: Boolean, offset: Int, size: Int, sortBy: String, sortOrder: String): [Inventory]
+}
